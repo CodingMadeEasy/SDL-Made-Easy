@@ -1,0 +1,22 @@
+﻿Build started 2014-07-01 3:26:10 AM.
+     1>Project "D:\C++ Projects\SDLYoutube\SDLYoutube\SDLYoutube.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Visual Studio 2013\VC\bin\CL.exe /c /I"D:\Linker Files\SDL2-2.0.3\include" /I"D:\Linker Files\SDL2-2.0.3\SDL2_image-2.0.0\include" /I"D:\Linker Files\SDL2-2.0.3\SDL2_ttf-2.0.12\include" /I"D:\Linker Files\SDL2-2.0.3\SDL2_mixer-2.0.0\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp Player.cpp
+         Player.cpp
+     1>d:\c++ projects\sdlyoutube\sdlyoutube\player.cpp(67): warning C4244: '-=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\c++ projects\sdlyoutube\sdlyoutube\player.cpp(72): warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\c++ projects\sdlyoutube\sdlyoutube\player.cpp(77): warning C4244: '-=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\c++ projects\sdlyoutube\sdlyoutube\player.cpp(82): warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
+         Generating Code...
+         Compiling...
+         Main.cpp
+         Generating Code...
+       Link:
+         D:\Visual Studio 2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\C++ Projects\SDLYoutube\Debug\SDLYoutube.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\Linker Files\SDL2-2.0.3\lib\x86" /LIBPATH:"D:\Linker Files\SDL2-2.0.3\SDL2_image-2.0.0\lib\x86" /LIBPATH:"D:\Linker Files\SDL2-2.0.3\SDL2_ttf-2.0.12\lib\x86" /LIBPATH:"D:\Linker Files\SDL2-2.0.3\SDL2_mixer-2.0.0\lib\x86" SDL2.lib SDL2main.lib SDL2_image.lib SDL2_ttf.lib SDL2_mixer.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\C++ Projects\SDLYoutube\Debug\SDLYoutube.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\C++ Projects\SDLYoutube\Debug\SDLYoutube.lib" /MACHINE:X86 Debug\Main.obj
+         Debug\Player.obj
+         SDLYoutube.vcxproj -> D:\C++ Projects\SDLYoutube\Debug\SDLYoutube.exe
+     1>Done Building Project "D:\C++ Projects\SDLYoutube\SDLYoutube\SDLYoutube.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.21
