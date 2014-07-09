@@ -42,7 +42,7 @@ int main(int argc, char *argv[])
 	SDL_Init(SDL_INIT_VIDEO);
 
 	int imgFlags = IMG_INIT_PNG | IMG_INIT_JPG;
-	if(!(IMG_Init(imgFlags) & imgFlags))
+	if(IMG_Init(imgFlags) != imgFlags)
 		std::cout << "Error: " << IMG_GetError() << std::endl;
 
 	window = SDL_CreateWindow("SDL CodingMadeEasy Series", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 640, 480, SDL_WINDOW_SHOWN);

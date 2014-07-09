@@ -22,6 +22,9 @@ int main(int argc, char *argv[])
 	const Uint8 *keyState;
 
 	SDL_Init(SDL_INIT_VIDEO);
+	
+	if(IMG_Init(imgFlags) != imgFlags)
+		std::cout << "Error: " << IMG_GetError() << std::endl;
 
 	int data = 10;
 	window = SDL_CreateWindow("SDL CodingMadeEasy Series", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 640, 480, SDL_WINDOW_SHOWN);
